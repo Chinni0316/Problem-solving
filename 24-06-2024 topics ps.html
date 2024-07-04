@@ -116,6 +116,40 @@ for(i=1;i<=rows2;i++){
     }
     console.log(s)
 }
+// // write a program to print the number based on the number of rows.
+rows=+prompt("enter a rows:")
+num=1
+for(i=1;i<=rows;i++){
+    n=""
+    for(j=1;j<=i;j++){
+        n+=num+" "
+        num++
+    }
+    console.log(n)
+}
+// write a program to print the alphabets ..
+rows1=+prompt("enter a rows: ")
+for(i=1;i<=rows1;i++){
+    n="",lower=97
+    for(j=1;j<=i;j++){
+        n+=String.fromCharCode(lower)+" "
+        lower++
+    }
+    console.log(n)
+}
+// write a program to print the alphabets..
+rows2=+prompt("enter a rows: ")
+for(i=1;i<=rows2;i++){
+    n="",lower=97
+    for(j=1;j<=i;j++){
+        n+=String.fromCharCode(lower+i-1)+" "
+        // lower++
+    }
+    console.log(n)
+}
+
+
+
 
 
 
